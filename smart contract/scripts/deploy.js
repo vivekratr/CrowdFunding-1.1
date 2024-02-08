@@ -7,7 +7,7 @@ const main = async () => {
   console.log("crowdfunding address: ", crowdfundingContract.address);
 };
 
-const runMain = async () => {
+const runMain = async () => { 
   try {
     await main();
     process.exit(0);
